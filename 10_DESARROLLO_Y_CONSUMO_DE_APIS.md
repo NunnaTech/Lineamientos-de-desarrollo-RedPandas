@@ -37,18 +37,20 @@ La definición de URI de recursos debe de seguir las prácticas con ejemplos, co
 {% swagger baseUrl="https://our.api.com" path="/usuarios/12" method="delete" summary="Elimina al usuario con ID 12" %}
 
     
-- Usar “/” para indicar la relación de jerarquía:
-» GET /usuarios/12/mensajes muestra mensajes del usuario con ID 12
-» GET /usuarios/12/mensajes/93 obtiene mensaje con ID 93 del usuario con ID 12
+- Usar **/** para indicar la relación de jerarquía:
+{% swagger baseUrl="https://our.api.com" path="/usuarios/12/mensajes" method="get" summary="Muestra mensajes del usuario con ID 12" %}
+{% swagger baseUrl="https://our.api.com" path="/usuarios/12/mensajes/93" method="get" summary="Obtiene el mensaje con ID 93 del usuario con ID 12" %}
+
 
 - Usar parámetros de consulta (query strings) para realizar operaciones de filtro, ordenamiento, paginación y/o búsqueda:
-    » GET /instituciones/2/usuarios?estado=inactivo lista todos los usuarios de la institución 2 con estado inactivo.
+{% swagger baseUrl="https://our.api.com" path="/instituciones/2/usuarios?estado=inactivo" method="get" summary="Lista todos los usuarios de la institución 2 con estado inactivo" %}
     
 - Formato de las URIs:
-    * No usar “/” al final de la URI.
+    * No usar **/** al final de las endpoints.
     * No usar mayúsculas.
-    /instituciones/2/usuarios ✔
-    /Instituciones/2/Usuarios/ ❌
+    {% hint style="success" %} /instituciones/2/usuarios {% endhint %}
+    {% hint style="danger" %} /Instituciones/2/Usuarios/ {% endhint %}
+    
     
 - Usar guion “-” (y no guion bajo “_”) para facilitar la comprensión de la URI:
 /oficinas/134/como-llegar ✔
