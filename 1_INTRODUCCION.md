@@ -1,0 +1,3 @@
+# 1. Introducción
+
+El objetivo principal de este documento, es proveer las especificaciones técnicas  para que los desarrolladores tengan conocimiento de los procesos de esta aplicación, con la finalidad de que cumplan con los estándares establecidos en este documento. Estos lineamientos son proporcionados con la información necesaria para entender y poder desarrollar sistemas/aplicaciones que cumplan con la arquitectura y directrices definidas por la organización.
