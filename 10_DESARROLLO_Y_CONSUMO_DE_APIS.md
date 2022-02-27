@@ -48,7 +48,6 @@ La definición de URI de recursos debe de seguir las prácticas con ejemplos, co
 - Formato de las URIs:
     * No usar **/** al final de las endpoints.
     * No usar mayúsculas.
-    **Ejemplo:**
     {% hint style="success" %} /instituciones/2/usuarios {% endhint %}
     {% hint style="danger" %} /Instituciones/2/Usuarios/ {% endhint %}
     
