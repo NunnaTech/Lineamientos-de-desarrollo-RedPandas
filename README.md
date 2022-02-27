@@ -11,9 +11,7 @@ Documentación sobre nuestros lineamientos para el desarrollo de software dentro
 * Saldaña Espinoza Hector
 
 Repositorio en GitHub:
-
-[https://github.com/ThePandaDevs/Lineamientos-de-desarrollo-RedPandas](https://github.com/ThePandaDevs/Lineamientos-de-desarrollo-RedPandas)
+{% embed url="https://github.com/ThePandaDevs/Lineamientos-de-desarrollo-RedPandas" %}
 
 Documento en Notion:
-
-[https://hectorsaldanaespinoza.notion.site/Lineamientos-para-el-desarrollo-de-software-723b8817ceb44c95b7693a7dc0d3f943](https://www.notion.so/Lineamientos-para-el-desarrollo-de-software-723b8817ceb44c95b7693a7dc0d3f943)
+{% embed url="https://hectorsaldanaespinoza.notion.site/Lineamientos-para-el-desarrollo-de-software-723b8817ceb44c95b7693a7dc0d3f943" %}
