@@ -26,8 +26,10 @@ Al diseñar la aplicación se debe considerar que consumirá y proveerá recurso
 La definición de URI de recursos debe de seguir las prácticas con ejemplos, como:
 
 - Usar sustantivos para describir los recursos:
-» GET /usuarios/ lista todos los usuarios
-» GET /usuarios/12 muestra detalle del usuario con ID 12
+{% swagger baseUrl="https://our.api.com" path="/usuarios" method="get" summary="Lista todos los usuarios" %}
+{% swagger baseUrl="https://our.api.com" path="/usuarios/12" method="get" summary="Muestra detalle del usuario con ID 12" %}
+
+
     
     » POST /usuarios crear usuario
     » PUT /usuarios/12 actualiza usuario con ID 12

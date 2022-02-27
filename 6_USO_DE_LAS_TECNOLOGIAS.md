@@ -1,4 +1,4 @@
-# 👨💻 6. Uso de las tecnologías
+# 6. Uso de las tecnologías
 
 ## 6.1. Lenguaje
 

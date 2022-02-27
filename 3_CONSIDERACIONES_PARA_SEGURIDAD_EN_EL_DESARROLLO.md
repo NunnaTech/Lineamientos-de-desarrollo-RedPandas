@@ -98,7 +98,7 @@ El manejo de la sesión es uno de los aspectos críticos de la seguridad. Los ob
 
 Para el manejo de las sesiones, se debe considerar al menos lo siguiente:
 
-* Al iniciar sesión el identificador de sesión debe ser único. \*\*\*\*
+* Al iniciar sesión el identificador de sesión debe ser único.
 * Se deben generar otro identificador de sesión cuando este inicie sesión.
 * Se tiene que terminar la sesión del usuario por inactividad.
 
