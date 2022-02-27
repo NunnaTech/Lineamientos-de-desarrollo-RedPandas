@@ -27,25 +27,26 @@ La definición de URI de recursos debe de seguir las prácticas con ejemplos, co
 
 - Usar sustantivos para describir los recursos:
 {% swagger baseUrl="https://our.api.com" path="/usuarios" method="get" summary="Lista todos los usuarios" %}
+
 {% swagger baseUrl="https://our.api.com" path="/usuarios/12" method="get" summary="Muestra detalle del usuario con ID 12" %}
 
+{% swagger baseUrl="https://our.api.com" path="/usuarios" method="post" summary="Crea un nuevo usuario" %}
 
-    
-    » POST /usuarios crear usuario
-    » PUT /usuarios/12 actualiza usuario con ID 12
-    » DELETE /usuarios/12 borra al usuario con ID 12.
+{% swagger baseUrl="https://our.api.com" path="/usuarios" method="put" summary="Actualiza usuario con ID" %}
+
+{% swagger baseUrl="https://our.api.com" path="/usuarios/12" method="delete" summary="Elimina al usuario con ID 12" %}
+
     
 - Usar “/” para indicar la relación de jerarquía:
 » GET /usuarios/12/mensajes muestra mensajes del usuario con ID 12
 » GET /usuarios/12/mensajes/93 obtiene mensaje con ID 93 del usuario con ID 12
+
 - Usar parámetros de consulta (query strings) para realizar operaciones de filtro, ordenamiento, paginación y/o búsqueda:
-    
     » GET /instituciones/2/usuarios?estado=inactivo lista todos los usuarios de la institución 2 con estado inactivo.
     
 - Formato de las URIs:
-    
-    » No usar “/” al final de la URI.
-    » No usar mayúsculas.
+    * No usar “/” al final de la URI.
+    * No usar mayúsculas.
     /instituciones/2/usuarios ✔
     /Instituciones/2/Usuarios/ ❌
     
